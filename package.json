@@ -1,0 +1,23 @@
+{
+  "name": "juanm_hellobuildtest",
+  "version": "1.0.0",
+  "description": "Prueba para proceso en Hellobuild",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "html-report": "cypress run --spec cypress/e2e/jpmunoz_test.cy.js --browser chrome --headed"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "javascript",
+    "automation",
+    "quality"
+  ],
+  "author": "juanmunoz",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.8.0",
+    "cypress-mochawesome-reporter": "^3.2.2"
+  }
+}
